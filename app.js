@@ -135,7 +135,13 @@
         <article class="question-card">
           <div class="question-label">QUESTION ${index + 1}</div>
           <div class="question-text">${nl2br(q.text)}</div>
-          <div class="tap-hint">選択肢をタップして解答</div>
+
+          <div class="question-translation">
+            <div class="translation-badge">日本語</div>
+            <div class="translation-text">${escapeHtml(q.translation || '')}</div>
+          </div>
+
+          <div class="tap-hint">日本語の意味を確認して、選択肢をタップ</div>
           <div class="choices">
             ${q.choices.map((choice, i) => `
               <button class="choice" data-choice="${i}" type="button">
@@ -184,11 +190,7 @@
           ${isCorrect ? '<span>正解です。</span>' : `<span>正解：${letters[q.answer]}. ${escapeHtml(q.choices[q.answer])}</span>`}
         </div>
       </div>
-      <div class="learning-note">
-        <div class="note-row translation-row">
-          <div class="note-label">和訳</div>
-          <div class="note-body">${escapeHtml(q.translation || '')}</div>
-        </div>
+      <div class="learning-note point-only-note">
         <div class="note-row point-row">
           <div class="note-label point-label">POINT</div>
           <div class="note-body">${escapeHtml(q.tip || '')}</div>

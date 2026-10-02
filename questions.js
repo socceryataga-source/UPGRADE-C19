@@ -7,7 +7,7 @@ const QUESTION_SETS = [
     sourceNote: "Googleフォームのクラス・出席番号・名前入力欄を除いた40問",
     questions: [
       // 第19回 ①
-      { id: 1, sourceSet: "①", sourceNo: 4, text: "どんなことがあっても，約束を守らなければならない。\nWhatever may happen, you must （　） your promise.", choices: ["give", "keep", "defend", "hold"], answer: 1, translation: "何が起こっても、約束を守らなければならない。", tip: "keep a promise = 約束を守る。反対は break a promise（約束を破る）。" },
+      { id: 1, sourceSet: "①", sourceNo: 4, text: "Whatever may happen, you must （　） your promise.", choices: ["give", "keep", "defend", "hold"], answer: 1, translation: "何が起こっても、約束を守らなければならない。", tip: "keep a promise = 約束を守る。反対は break a promise（約束を破る）。" },
       { id: 2, sourceSet: "①", sourceNo: 5, text: "I advised him that he should keep his thoughts to himself in this situation. But he couldn't （　） his tongue.", choices: ["cease", "hold", "lose", "hide"], answer: 1, translation: "私は彼に、この状況では自分の考えを胸にしまっておくよう助言した。しかし彼は黙っていられなかった。", tip: "hold one's tongue = 黙っている、言いたいことを我慢する。" },
       { id: 3, sourceSet: "①", sourceNo: 6, text: "A：Don't tell Allan about John and Mary. You know he can't （　） a secret.\nB：OK. I got it.", choices: ["hold", "stop", "save", "keep"], answer: 3, translation: "A：アランにジョンとメアリーのことを言わないで。彼は秘密を守れないから。 B：わかった。", tip: "keep a secret = 秘密を守る。keep は『ある状態を保つ』イメージ。" },
       { id: 4, sourceSet: "①", sourceNo: 7, text: "You had better keep early （　） so you will be in good health.", choices: ["conditions", "customs", "hours", "time"], answer: 2, translation: "健康でいるためには、早寝早起きの生活をした方がよい。", tip: "keep early hours = 早寝早起きの規則正しい生活をする。" },
@@ -29,7 +29,7 @@ const QUESTION_SETS = [
       { id: 20, sourceSet: "①", sourceNo: 23, text: "The clerk （　） me a call to let me know about you.", choices: ["hit", "took", "gave", "sent"], answer: 2, translation: "店員はあなたのことを知らせるために私に電話をくれた。", tip: "give A a call = Aに電話する。call A とほぼ同じ。" },
 
       // 第19回 ③
-      { id: 21, sourceSet: "③", sourceNo: 4, text: "どんなことがあっても，約束を守らなければならない。\nWhatever may happen, you must （　） your promise.", choices: ["give", "keep", "defend", "hold"], answer: 1, translation: "何が起こっても、約束を守らなければならない。", tip: "keep a promise = 約束を守る。反対は break a promise（約束を破る）。" },
+      { id: 21, sourceSet: "③", sourceNo: 4, text: "Whatever may happen, you must （　） your promise.", choices: ["give", "keep", "defend", "hold"], answer: 1, translation: "何が起こっても、約束を守らなければならない。", tip: "keep a promise = 約束を守る。反対は break a promise（約束を破る）。" },
       { id: 22, sourceSet: "③", sourceNo: 5, text: "I advised him that he should keep his thoughts to himself in this situation. But he couldn't （　） his tongue.", choices: ["cease", "hold", "lose", "hide"], answer: 1, translation: "私は彼に、この状況では自分の考えを胸にしまっておくよう助言した。しかし彼は黙っていられなかった。", tip: "hold one's tongue = 黙っている、言いたいことを我慢する。" },
       { id: 23, sourceSet: "③", sourceNo: 6, text: "A：Don't tell Allan about John and Mary. You know he can't （　） a secret.\nB：OK. I got it.", choices: ["hold", "stop", "save", "keep"], answer: 3, translation: "A：アランにジョンとメアリーのことを言わないで。彼は秘密を守れないから。 B：わかった。", tip: "keep a secret = 秘密を守る。keep は『ある状態を保つ』イメージ。" },
       { id: 24, sourceSet: "③", sourceNo: 7, text: "You had better keep early （　） so you will be in good health.", choices: ["conditions", "customs", "hours", "time"], answer: 2, translation: "健康でいるためには、早寝早起きの生活をした方がよい。", tip: "keep early hours = 早寝早起きの規則正しい生活をする。" },
