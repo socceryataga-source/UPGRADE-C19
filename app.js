@@ -184,6 +184,16 @@
           ${isCorrect ? '<span>正解です。</span>' : `<span>正解：${letters[q.answer]}. ${escapeHtml(q.choices[q.answer])}</span>`}
         </div>
       </div>
+      <div class="learning-note">
+        <div class="note-row translation-row">
+          <div class="note-label">和訳</div>
+          <div class="note-body">${escapeHtml(q.translation || '')}</div>
+        </div>
+        <div class="note-row point-row">
+          <div class="note-label point-label">POINT</div>
+          <div class="note-body">${escapeHtml(q.tip || '')}</div>
+        </div>
+      </div>
     `;
 
     const nextArea = document.getElementById('nextArea');
